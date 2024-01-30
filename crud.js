@@ -95,8 +95,8 @@ function criarElementoTarefa(tarefa){
 }
 
     const limparFormulario = () =>{
-    console.log("aqui")
-    textArea.value = ''
+    // console.log("aqui")
+    textArea = " "
     adicionarTask.classList.add('hidden')
     
 }
